@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header.js';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home.js'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' exact />
+          <Route path='/' exact component={Home}/>
         </Routes>
       </Router>
     </>
