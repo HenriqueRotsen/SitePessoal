@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.css'
 import LogoCantoPagina from './images/logo-no-background-canto.png'
+
 
 function Header() {
   const [click, setClick] = useState(false);

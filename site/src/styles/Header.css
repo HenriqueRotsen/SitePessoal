@@ -71,15 +71,6 @@
     display: none;
 }
 
-.navbar::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%; /* Largura total do cabeçalho */
-    height: 1px; /* Altura da borda */
-    background-color: #ededed; /* Cor da borda inferior */
-}
-
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;

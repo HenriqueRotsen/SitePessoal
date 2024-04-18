@@ -12,7 +12,6 @@
     height: 90vh;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
   }
   
   .trabalhos {
@@ -20,7 +19,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
   }
   
   .curriculo {
@@ -28,7 +26,6 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
   }
   
   .contato {
@@ -36,5 +33,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
   }
