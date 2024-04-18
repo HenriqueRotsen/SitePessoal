@@ -1,11 +1,24 @@
-h1{
-    margin-left: 40px;
+h1 {
+    margin-left: 70px;
     margin-top: 40px;
 }
 
+.main-box {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../components/images/background-home-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .logo-main-box {
-    width: 12%;
-    height: auto;
+    width: auto;
+    height: 30%;
     opacity: 0;
     transition: opacity 2s ease;
 }
@@ -28,42 +41,67 @@ li {
     margin-left: 40px;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinhe os elementos ao topo */
-}
-
-.content {
-    display: flex;
-    width: 100%;
-    max-width: 1200px; /* Largura máxima do conteúdo */
+    align-items: flex-start;
 }
 
 .side-text {
-    flex: 3; /* Ocupa o espaço restante */
-    padding-right: 20px; /* Espaçamento à direita */
+    flex: 3;
+    padding: 30px;
 }
 
 .professional-image-box {
     margin-right: 40px;
-    flex: 1; /* Ocupa o espaço restante */
+    margin-bottom: 20px;
+    flex: 2;
     display: flex;
-    justify-content: flex-end; /* Alinhe à direita */
+    justify-content: center;
 }
 
 .professional-image {
-    max-width: 75%; /* Garanta que a imagem não ultrapasse o tamanho máximo */
-    border-radius: 50%; /* Faça a imagem ter o recorte redondo */
+    height: auto;
+    max-width: 450px;
+    width: 100%;
 }
 
-.languages {
+.has-bar {
     position: relative;
+    margin-bottom: 5px;
 }
 
-.languages::after{
+.has-bar::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 75%;
+    width: 80%;
     height: 2px;
-    background-color: #FF5733; /* Cor da borda inferior */
+    background-color: #FF5733;
+}
+
+.btn-contato{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 960px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .side-text {
+        order: 1;
+    }
+
+    .professional-image-box {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    .professional-image {
+        max-width: 85%;
+        height: auto;
+    }
 }
