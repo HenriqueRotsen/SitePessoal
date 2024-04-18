@@ -1,14 +1,19 @@
 import '../App.css';
 import React from 'react';
+import Logo from '../components/images/logo-no-background.png'
 
 
-function Home() {
+export const Home = () => {
+    console.log('oi')
     return (
         <>
-            <h1>
-                Meu nome
-            </h1>
+            <div className='main-box'>
+                <img src={Logo} alt='Logo' />
+            </div>
+            <section className='about-container'>
+                <h1>Sobre Mim</h1>
+                <div className='side-text'></div>
+            </section>
         </>
     )
 }
-export default Home;
