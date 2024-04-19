@@ -64,10 +64,10 @@ export const Home = () => {
                         <li className='item'>Knime</li>
                         <li className='item'>SolidWorks</li>
                     </ul>
-                    Possuí bastante interesse nas áreas de Análise de Dados e Pesquisa Operacional, tendo como foco principal as aplicações voltadas para o mercado automotívo e computação embarcada.
+                    Possui bastante interesse nas áreas de Análise de Dados e Pesquisa Operacional, tendo como foco principal as aplicações voltadas para o mercado automotivo e computação embarcada.
                     <br />
                     Sua paixão pela Ciência de Dados e Pesquisa Operacional reflete-se em suas realizações, incluindo o desenvolvimento de um algoritmo inicial de Machine Learning, a implementação do
-                    algoritmo Simplex em Python. Além de outros trabalhos... <b>Para saber mais veja seus trabalhos no botão abaixo</b>
+                    algoritmo Simplex em Python. Além de outros trabalhos... <b>Para saber mais, acesse a página a seguir</b>
                     <br />
                 </div>
                 <div className='professional-image-box'>
@@ -75,7 +75,7 @@ export const Home = () => {
                 </div>
             </section>
             <div className='btn-contato'>
-                <Button path='/trabalhos' buttonSize={'btn--large'}>Veja mais trabalhos</Button>
+                <Button path='/trabalhos' buttonSize={'btn--medium'}>Veja mais trabalhos</Button>
             </div>
         </>
     )
