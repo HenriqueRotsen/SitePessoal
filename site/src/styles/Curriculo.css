@@ -1,0 +1,21 @@
+.main {
+    flex-wrap: wrap;
+}
+
+.professional-experience-container {
+    background-color: #ff851b;
+    padding: 100px;
+}
+
+.item {
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.item:hover {
+    background-color: #191919;
+    color: white;
+    transition: all 1s ease-out;
+}
