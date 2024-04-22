@@ -34,3 +34,19 @@
     align-content: center;
     text-align: center;
 }
+
+@media screen and (max-width: 400px) {
+    .footer-container {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .social-medias {
+        padding-top: 10px;
+        border-right: 0px;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+}
