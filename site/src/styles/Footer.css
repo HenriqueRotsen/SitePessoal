@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #191919;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.social-medias {
+    margin: 20px;
+    flex: 1;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+.social-medias a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-medias a i {
+    font-size: 24px;
+    color: #ff851b;
+}
+
+.copyright {
+    flex: 1;
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
