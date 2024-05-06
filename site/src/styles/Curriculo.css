@@ -1,0 +1,37 @@
+.main {
+    flex-wrap: wrap;
+    background-color: #ff851b;
+    padding: 100px;
+}
+
+.main-box {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../components/images/background-home-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-resume {
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .files {
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+    }
+
+    .item-resume {
+        align-self: self-start;
+        justify-content: left;
+    }
+}
