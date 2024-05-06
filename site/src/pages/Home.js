@@ -2,7 +2,7 @@ import '../App.css';
 import '../styles/Home.css';
 import React from 'react';
 import Logo from '../components/images/logo-no-background.png'
-import ProfessionalFoto from '../components/images/foto-profissional.jpeg'
+import ProfessionalFoto from '../components/images/profissional2.jpg'
 import { useState, useEffect } from 'react';
 import Button from '../components/Button.js'
 

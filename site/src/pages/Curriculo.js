@@ -1,41 +1,48 @@
 import '../App.css';
 import '../styles/Curriculo.css';
 import React from 'react';
-import AgeDisplay from '../components/AgeDisplay.js'
+import { useState, useEffect } from 'react';
+import DownloadButton from '../components/DownloadButton.js';
+import ResumeEnglish from '../components/files/Henrique_Rotsen_curriculo_portugues.pdf'
+import ResumePortuguese from '../components/files/Henrique_Rotsen_curriculo_portugues.pdf'
+import ResumeLinkedin from '../components/files/Henrique_Rotsen_curriculo_linkedin.pdf'
+import Logo from '../components/images/logo-no-background.png'
+
 
 export const Curriculo = () => {
-  const birthDate = new Date('2001-02-04');
+  const [showLogo, setShowLogo] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLogo(true);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
+      <div className='main-box'>
+        <img src={Logo} alt='Logo' className={`logo-main-box ${showLogo ? 'show' : ''}`} />
+      </div>
       <main className='main'>
-        <section className='infos'>
-          <h2>Informações Pessoais</h2>
-          <p>
-            <b>Henrique Rotsen Santos Ferreira</b> <AgeDisplay birthDate={birthDate} />
-            
-          </p>
-        </section>
-        <section className='professional-experience-container'>
-          <h2>Experiências Profissionais</h2>
-            <ul className='experiences'>
-              <li className='item'>
-                <h3>Universo Licitações</h3>
-                <h4>Assistente de desenvolvimento</h4>
-                <p>Julho 2021 - Dezembro 2023</p>
-              </li>
-              <li className='item'>
-                <h3>ADAC Motors</h3>
-                <h4>Estagiário</h4>
-                <p>Janeiro 2024 - Março 2024</p>
-              </li>
-              <li className='item'>
-                <h3>Plural Systems</h3>
-                <h4>Estagiário</h4>
-                <p>Março 2024 - Presente</p>
-              </li>
-            </ul>
-        </section>
+        <h2>Modelos de Currículo</h2>
+        <ul className='files'>
+          <li className='item-resume'>
+            <h3>Curriculum Vitae</h3>
+            <DownloadButton buttonStyle="btn--primary" downloadUrl={ResumePortuguese} downloadFileName="Henrique_Rotsen_curriculo_portugues">Download</DownloadButton>
+            <p>Português (PT/BR)</p>
+          </li>
+          <li className='item-resume'>
+            <h3>Curriculum Vitae</h3>
+            <DownloadButton downloadUrl={ResumeEnglish} downloadFileName="Henrique_Rotsen_resume_english">Download</DownloadButton>
+            <p>English (EN/US)</p>
+          </li>
+          <li className='item-resume'>
+            <h3>LinkedIn</h3>
+            <DownloadButton downloadUrl={ResumeLinkedin} downloadFileName="Henrique_Rotsen_curriculo_linkedin">Download</DownloadButton>
+            <p>Português (PT/BR)</p>
+          </li>
+        </ul>
       </main>
     </>
   );

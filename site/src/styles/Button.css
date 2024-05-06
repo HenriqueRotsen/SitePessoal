@@ -37,8 +37,8 @@
 }
 
 .btn--medium:hover, .btn--large:hover{
-    background-color: var(--contrast);
-    color: var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary);
     border: 1px solid var(--contrast);
     transition: all 0.3s ease-out;
 }
