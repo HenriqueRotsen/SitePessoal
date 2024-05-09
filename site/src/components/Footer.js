@@ -22,7 +22,7 @@ function Footer() {
           </a>
         </div>
         <div className='copyright'>
-          Henrique Rotsen - {anoAtual} Todos os direitos reservados Ⓡ
+          Henrique Rotsen - {anoAtual} Todos os direitos reservados ©
         </div>
       </div>
     </>
