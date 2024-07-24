@@ -23,7 +23,7 @@ export const Home = () => {
             </div>
             <h1>Sobre</h1>
             <section className='about-container'>
-
+                
                 <div className='side-text'>
                     <p>
                         Graduando em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG).<br />
