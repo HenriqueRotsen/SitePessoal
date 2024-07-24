@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { getYear } from "https://unpkg.com/date-fns/getYear.mjs";
 import '../styles/Footer.css'
 
@@ -22,7 +21,7 @@ function Footer() {
           </a>
         </div>
         <div className='copyright'>
-          Henrique Rotsen - {anoAtual} Todos os direitos reservados Ⓡ
+          Desenvolvido por Henrique Rotsen - {anoAtual} Todos os direitos reservados ©
         </div>
       </div>
     </>
