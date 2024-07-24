@@ -15,7 +15,7 @@
     align-content: center;
     align-self: flex-start;
     width: 50%;
-    height: 50vh;
+    height: 50%;
     background-color: white;
 }
 
@@ -24,7 +24,7 @@
     align-content: center;
     margin-left: auto;
     width: 50%;
-    height: 50vh;
+    height: 50%;
     background-color: white;
 }
 
@@ -45,24 +45,16 @@
     opacity: 60%;
 }
 
-.extras {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 50vh;
+.vertical{
+    list-style: none;
+    column-count: 1;
+    padding: 10px;    
 }
 
-.gps {
-    display: flex;
-    align-items: flex-end;
-    height: 50vh;
-    margin-left: 20px;
+.vertical li{
+    margin-top: 10px;  
 }
 
-.gps-1 {
-    height: 50vh;
-    margin-left: 20px;
-}
 
 p{
     margin-left: 10px;
@@ -71,4 +63,32 @@ p{
 a{
     color: #ff851b;
     text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .works {
+        padding: 25px;
+    }
+
+    .work {
+        flex-direction: column;
+    }
+
+    .info-container-1 {
+        padding: 25px;
+        align-content: center;
+        margin-left: auto;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+    
+    .info-container-2 {
+        padding: 25px;
+        align-content: center;
+        margin-left: auto;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
 }
