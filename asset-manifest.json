@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.22c83975.css",
-    "main.js": "/site/static/js/main.79d29e81.js",
-    "static/media/background-home-page.png": "/site/static/media/background-home-page.943ab84ed4678e78e939.png",
-    "static/media/profissional2.jpg": "/site/static/media/profissional2.451bd83b13013457281d.jpg",
-    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/site/static/media/Henrique_Rotsen_curriculo_portugues.3c4d839442b77dc90e9f.pdf",
-    "static/media/logo-no-background.png": "/site/static/media/logo-no-background.6435704aba73829a6725.png",
-    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/site/static/media/Henrique_Rotsen_curriculo_linkedin.65ebb471da1a3c4b0baf.pdf",
-    "static/media/logo-no-background-canto.png": "/site/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
-    "index.html": "/site/index.html",
-    "main.22c83975.css.map": "/site/static/css/main.22c83975.css.map",
-    "main.79d29e81.js.map": "/site/static/js/main.79d29e81.js.map"
+    "main.css": "/SitePessoal/static/css/main.0d8745cb.css",
+    "main.js": "/SitePessoal/static/js/main.5dab6df7.js",
+    "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
+    "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
+    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_portugues.3c4d839442b77dc90e9f.pdf",
+    "static/media/logo-no-background.png": "/SitePessoal/static/media/logo-no-background.6435704aba73829a6725.png",
+    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_linkedin.65ebb471da1a3c4b0baf.pdf",
+    "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
+    "index.html": "/SitePessoal/index.html",
+    "main.0d8745cb.css.map": "/SitePessoal/static/css/main.0d8745cb.css.map",
+    "main.5dab6df7.js.map": "/SitePessoal/static/js/main.5dab6df7.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c83975.css",
-    "static/js/main.79d29e81.js"
+    "static/css/main.0d8745cb.css",
+    "static/js/main.5dab6df7.js"
   ]
 }
