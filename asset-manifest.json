@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1af10ae8.css",
-    "main.js": "/static/js/main.44ac4f13.js",
-    "static/media/background-home-page.png": "/static/media/background-home-page.943ab84ed4678e78e939.png",
-    "static/media/profissional2.jpg": "/static/media/profissional2.451bd83b13013457281d.jpg",
-    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/static/media/Henrique_Rotsen_curriculo_portugues.3c4d839442b77dc90e9f.pdf",
-    "static/media/logo-no-background.png": "/static/media/logo-no-background.6435704aba73829a6725.png",
-    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/static/media/Henrique_Rotsen_curriculo_linkedin.65ebb471da1a3c4b0baf.pdf",
-    "static/media/logo-no-background-canto.png": "/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
-    "index.html": "/index.html",
-    "main.1af10ae8.css.map": "/static/css/main.1af10ae8.css.map",
-    "main.44ac4f13.js.map": "/static/js/main.44ac4f13.js.map"
+    "main.css": "/site/static/css/main.22c83975.css",
+    "main.js": "/site/static/js/main.79d29e81.js",
+    "static/media/background-home-page.png": "/site/static/media/background-home-page.943ab84ed4678e78e939.png",
+    "static/media/profissional2.jpg": "/site/static/media/profissional2.451bd83b13013457281d.jpg",
+    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/site/static/media/Henrique_Rotsen_curriculo_portugues.3c4d839442b77dc90e9f.pdf",
+    "static/media/logo-no-background.png": "/site/static/media/logo-no-background.6435704aba73829a6725.png",
+    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/site/static/media/Henrique_Rotsen_curriculo_linkedin.65ebb471da1a3c4b0baf.pdf",
+    "static/media/logo-no-background-canto.png": "/site/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
+    "index.html": "/site/index.html",
+    "main.22c83975.css.map": "/site/static/css/main.22c83975.css.map",
+    "main.79d29e81.js.map": "/site/static/js/main.79d29e81.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af10ae8.css",
-    "static/js/main.44ac4f13.js"
+    "static/css/main.22c83975.css",
+    "static/js/main.79d29e81.js"
   ]
 }
