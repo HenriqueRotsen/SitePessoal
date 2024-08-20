@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SitePessoal/static/css/main.0d8745cb.css",
-    "main.js": "/SitePessoal/static/js/main.3c9ef6c9.js",
+    "main.css": "/SitePessoal/static/css/main.64528600.css",
+    "main.js": "/SitePessoal/static/js/main.3acd6e2f.js",
     "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
     "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
-    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_portugues.25551f0260db2f47e537.pdf",
+    "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_portugues.d0e81bc457ed3d9c60e3.pdf",
     "static/media/logo-no-background.png": "/SitePessoal/static/media/logo-no-background.6435704aba73829a6725.png",
-    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_linkedin.10820150eb2f1b87ed5f.pdf",
+    "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_linkedin.ca22bc8115ce096406ec.pdf",
     "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
     "index.html": "/SitePessoal/index.html",
-    "main.0d8745cb.css.map": "/SitePessoal/static/css/main.0d8745cb.css.map",
-    "main.3c9ef6c9.js.map": "/SitePessoal/static/js/main.3c9ef6c9.js.map"
+    "main.64528600.css.map": "/SitePessoal/static/css/main.64528600.css.map",
+    "main.3acd6e2f.js.map": "/SitePessoal/static/js/main.3acd6e2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d8745cb.css",
-    "static/js/main.3c9ef6c9.js"
+    "static/css/main.64528600.css",
+    "static/js/main.3acd6e2f.js"
   ]
 }
