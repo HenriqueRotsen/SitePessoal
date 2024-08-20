@@ -35,11 +35,11 @@
 .form-group input {
     align-self: center;
     margin-left: auto;
-    border: 1px solid;
-    box-shadow: none;
+    border-radius: 2px;
     outline: none;
-    border-radius: 1px;
-    width: 80%;
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;    
 }
 
 .form-group-message {
@@ -50,10 +50,10 @@
 
 .form-group-message textarea {
     height: 100px;
-    border: 1px solid;
-    box-shadow: none;
+    border-radius: 2px;
     outline: none;
-    border-radius: 1px;
+    border: none;
+    resize: none;
 }
 
 .contato h1 {
@@ -61,13 +61,9 @@
     color: #ff851b;
 }
 
-label {
-    margin: 10px;
-}
-
 .form-group-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: center;
     justify-items: center;
 }
@@ -76,6 +72,13 @@ label {
     width: 100%;
 }
 
+.error-message {
+    color: #ff851b;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+
 @media screen and (max-width: 960px) {
     .form-group {
         font-size: 20px;
@@ -83,7 +86,9 @@ label {
         flex-direction: column;
     }
 
-    .form-group input {
-        width: 100%;
+    .contato{
+        height: 60vh;
+        width: 90vw;
     }
+    
 }
