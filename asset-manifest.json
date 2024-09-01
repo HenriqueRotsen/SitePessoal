@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SitePessoal/static/css/main.64528600.css",
-    "main.js": "/SitePessoal/static/js/main.3acd6e2f.js",
+    "main.js": "/SitePessoal/static/js/main.d566e9dd.js",
     "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
     "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
     "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_portugues.d0e81bc457ed3d9c60e3.pdf",
@@ -10,10 +10,10 @@
     "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
     "index.html": "/SitePessoal/index.html",
     "main.64528600.css.map": "/SitePessoal/static/css/main.64528600.css.map",
-    "main.3acd6e2f.js.map": "/SitePessoal/static/js/main.3acd6e2f.js.map"
+    "main.d566e9dd.js.map": "/SitePessoal/static/js/main.d566e9dd.js.map"
   },
   "entrypoints": [
     "static/css/main.64528600.css",
-    "static/js/main.3acd6e2f.js"
+    "static/js/main.d566e9dd.js"
   ]
 }
