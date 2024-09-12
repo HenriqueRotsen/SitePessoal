@@ -1,5 +1,5 @@
 import React from 'react';
-import { getYear } from "https://unpkg.com/date-fns/getYear.mjs";
+import { getYear } from 'date-fns';
 import '../styles/Footer.css'
 
 
