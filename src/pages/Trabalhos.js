@@ -1,6 +1,9 @@
+import DownloadButton from '../components/DownloadButton.js';
 import '../App.css';
 import '../styles/Trabalhos.css';
 import React from 'react';
+import MDA from '../components/files/Mineracao_Dados_Apartamentos_EUA.pdf'
+
 
 export const Trabalhos = () => {
   return (
@@ -82,6 +85,32 @@ export const Trabalhos = () => {
                 Software interno para gestão e acompanhamento de contratos para a Santiago Cotton LTDA, sistema essa feito em C# usando framework .NET com Windows Forms
               </li>
             </ul>
+          </div>
+        </div>
+        <hr className='divider' />
+        <div className='work'>
+          <div className='info-container-1'>
+            <h2 className='work-title'>Mineração de Dados</h2>
+            <p>
+              Foi feito um trabalho voltado para descoberta de padrões em dados de apartamento para aluguel nos EUA. 
+              Esse trabalho utilizou várias técnicas de tratamento e análise de dados, que foram discutidas em um relatório
+              disponível abaixo.
+            </p>
+            <ul className='vertical'>
+              <li>ANÁLISE EXPLORATÓRIA DE DADOS<br />
+                Permitiu mapear uma média de preços de apartamentos nos Estados Unidos e entender regiões onde os apartamentos de maior preço se concentram.
+              </li>
+              <li>AGRUPAMENTO<br />
+                Várias técnicas foram utilizadas (K-Means, DBSCAN...) para buscar um agrupamento nos dados considerando os atributos numéricos disponíveis no dataset.
+              </li>
+              <li>REGRESSÃO<br />
+                Possibilitou fazer previsões a partir dos dados e chegar em um resultado satisfatório. ALgumas técnicas conhecidas foram utilizadas, e também uma análise de erro e qualidade das métricas obtidas.
+              </li>
+              <li>MINERAÇÃO DE ITEMSETS<br />
+                Identificamos padrões significativos entre as comodidades oferecidas nos apartamentos, revelando associações frequentes e relevantes entre conjuntos de itens
+              </li>
+            </ul>
+            <DownloadButton downloadUrl={MDA} downloadFileName="Mineracao_Dados_Apartamentos_EUA">Veja o Trabalho</DownloadButton>
           </div>
         </div>
       </section>
