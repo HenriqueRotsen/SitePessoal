@@ -3,7 +3,7 @@ import '../styles/Curriculo.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import DownloadButton from '../components/DownloadButton.js';
-import ResumeEnglish from '../components/files/Henrique_Rotsen_curriculo_portugues.pdf'
+import ResumeEnglish from '../components/files/Henrique_Rotsen_resume_english.pdf'
 import ResumePortuguese from '../components/files/Henrique_Rotsen_curriculo_portugues.pdf'
 import ResumeLinkedin from '../components/files/Henrique_Rotsen_curriculo_linkedin.pdf'
 import Logo from '../components/images/logo-no-background.png'
