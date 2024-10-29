@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SitePessoal/static/css/main.64528600.css",
-    "main.js": "/SitePessoal/static/js/main.caae0390.js",
+    "main.css": "/SitePessoal/static/css/main.255f32a6.css",
+    "main.js": "/SitePessoal/static/js/main.0c2390ad.js",
     "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
     "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
     "static/media/Mineracao_Dados_Apartamentos_EUA.pdf": "/SitePessoal/static/media/Mineracao_Dados_Apartamentos_EUA.2c60eb94126133df7553.pdf",
@@ -11,11 +11,11 @@
     "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_linkedin.40ecfa209517d16498b8.pdf",
     "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
     "index.html": "/SitePessoal/index.html",
-    "main.64528600.css.map": "/SitePessoal/static/css/main.64528600.css.map",
-    "main.caae0390.js.map": "/SitePessoal/static/js/main.caae0390.js.map"
+    "main.255f32a6.css.map": "/SitePessoal/static/css/main.255f32a6.css.map",
+    "main.0c2390ad.js.map": "/SitePessoal/static/js/main.0c2390ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.64528600.css",
-    "static/js/main.caae0390.js"
+    "static/css/main.255f32a6.css",
+    "static/js/main.0c2390ad.js"
   ]
 }
