@@ -15,7 +15,7 @@ export const Trabalhos = () => {
           <div className='info-container-2'>
             <h2 className='work-title'>Cibersegurança</h2>
             <p>
-              IParticipou do projeto de iniciação ciêntífica na área de cibersegurança, mais voltada para DevSecOps. O projeto é feito em parceria 
+              Participou do projeto de iniciação ciêntífica na área de cibersegurança, mais voltada para DevSecOps. O projeto é feito em parceria 
               com o Ministério Público de Minas Gerais (MPMG), visando realizar uma análise de vulnerabilidade da segurança
               dos sistemas próprios do MPMG e do Gabinete de Segurança Integrado (GSI). 
             </p>
