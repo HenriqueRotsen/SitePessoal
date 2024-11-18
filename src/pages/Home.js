@@ -54,20 +54,26 @@ export const Home = () => {
                     </ul>
                     <b>Outras Tecnologias</b>
                     <ul className='tecnologies'>
+                        <li className='item'>SonarQube</li>
+                        <li className='item'>Jenkins</li>
+                        <li className='item'>OwaspZap</li>
                         <li className='item'>Azure DevOPS</li>
                         <li className='item'>VS Code</li>
                         <li className='item'>Visual Studio</li>
                         <li className='item'>Excel</li>
                         <li className='item'>Scrum</li>
-                        <li className='item'>kanban</li>
+                        <li className='item'>Kanban</li>
                         <li className='item'>Design Thinking</li>
                         <li className='item'>Knime</li>
                         <li className='item'>SolidWorks</li>
                     </ul>
-                    Possui bastante interesse nas áreas de Análise de Dados e Pesquisa Operacional, tendo como foco principal as aplicações voltadas para o mercado automotivo e computação embarcada.
+                    Possui bastante interesse nas áreas de Inteligência Artificial, Aprendizado de Máquina e Cibersegurança, 
+                    tendo como foco principal as aplicações voltadas para o mercado automotivo e computação embarcada.
                     <br />
-                    Sua paixão pela Ciência de Dados e Pesquisa Operacional reflete-se em suas realizações, incluindo o desenvolvimento de um algoritmo inicial de Machine Learning, a implementação do
-                    algoritmo Simplex em Python. Além de outros trabalhos... <b>Para saber mais, acesse a página a seguir</b>
+                    Também possuí um grande interesse pelas áreas de Ciência de Dados e Pesquisa Operacional, que fez com que
+                    isso se refletisse em suas realizações, incluindo o desenvolvimento de um algoritmo inicial de Machine Learning,
+                    a implementação do algoritmo Simplex em Python. Além de outros trabalhos... 
+                    <b>Para saber mais, acesse a página a seguir</b>
                     <br />
                 </div>
                 <div className='professional-image-box'>
