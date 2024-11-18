@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SitePessoal/static/css/main.255f32a6.css",
-    "main.js": "/SitePessoal/static/js/main.0c2390ad.js",
+    "main.js": "/SitePessoal/static/js/main.4f8122a9.js",
     "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
     "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
     "static/media/Mineracao_Dados_Apartamentos_EUA.pdf": "/SitePessoal/static/media/Mineracao_Dados_Apartamentos_EUA.2c60eb94126133df7553.pdf",
@@ -12,10 +12,10 @@
     "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
     "index.html": "/SitePessoal/index.html",
     "main.255f32a6.css.map": "/SitePessoal/static/css/main.255f32a6.css.map",
-    "main.0c2390ad.js.map": "/SitePessoal/static/js/main.0c2390ad.js.map"
+    "main.4f8122a9.js.map": "/SitePessoal/static/js/main.4f8122a9.js.map"
   },
   "entrypoints": [
     "static/css/main.255f32a6.css",
-    "static/js/main.0c2390ad.js"
+    "static/js/main.4f8122a9.js"
   ]
 }
