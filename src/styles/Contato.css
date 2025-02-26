@@ -39,7 +39,8 @@
     outline: none;
     border: none;
     width: 100%;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
 .form-group-message {
@@ -54,6 +55,7 @@
     outline: none;
     border: none;
     resize: none;
+    padding: 5px;
 }
 
 .contato h1 {
