@@ -53,7 +53,7 @@ export const Contato = () => {
     };
 
     emailjs.send(
-      'service_k7i11p3',
+      'service_c3pkaiw',
       'template_tjl9zii',
       templateParams,
       'Aj6r553aDRSOBjQ5W'
