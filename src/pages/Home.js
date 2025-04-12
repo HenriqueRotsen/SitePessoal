@@ -1,13 +1,15 @@
 import '../App.css';
 import '../styles/Home.css';
-import React from 'react';
-import Logo from '../components/images/logo-no-background.png'
-import ProfessionalFoto from '../components/images/profissional2.jpg'
-import { useState, useEffect } from 'react';
-import Button from '../components/Button.js'
+import React, { useState, useEffect } from 'react';
+import Logo from '../components/images/logo-no-background.png';
+import ProfessionalFoto from '../components/images/profissional2.jpg';
+import Button from '../components/Button.js';
+import { useTranslation } from 'react-i18next';
 
 export const Home = () => {
     const [showLogo, setShowLogo] = useState(false);
+    const { t } = useTranslation();
+
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowLogo(true);
@@ -21,15 +23,11 @@ export const Home = () => {
             <div className='main-box'>
                 <img src={Logo} alt='Logo' className={`logo-main-box ${showLogo ? 'show' : ''}`} />
             </div>
-            <h1>Sobre</h1>
+            <h1>{t('home.sobre')}</h1>
             <section className='about-container'>
-                
                 <div className='side-text'>
-                    <p>
-                        Graduando em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG).<br />
-                        <b>Principais conhecimentos</b>
-                    </p>
-                    <b>Linguagens</b>
+                    <p>{t('home.descricao')}<br /><b>{t('home.descricao2')}</b></p>
+                    <b>{t('home.linguagens')}</b>
                     <ul className='has-bar'>
                         <li className='item'>C</li>
                         <li className='item'>C++</li>
@@ -42,8 +40,10 @@ export const Home = () => {
                         <li className='item'>Html</li>
                         <li className='item'>Css</li>
                     </ul>
-                    <b>Bibliotecas</b>
+
+                    <b>{t('home.bibliotecas')}</b>
                     <ul className='has-bar'>
+                        <li className='item'>PyTorch</li>
                         <li className='item'>.NET</li>
                         <li className='item'>Pandas</li>
                         <li className='item'>Scypi</li>
@@ -52,7 +52,8 @@ export const Home = () => {
                         <li className='item'>Scikit-learn</li>
                         <li className='item'>Statsmodels</li>
                     </ul>
-                    <b>Outras Tecnologias</b>
+
+                    <b>{t('home.outrasTecnologias')}</b>
                     <ul className='tecnologies'>
                         <li className='item'>SonarQube</li>
                         <li className='item'>Jenkins</li>
@@ -67,22 +68,19 @@ export const Home = () => {
                         <li className='item'>Knime</li>
                         <li className='item'>SolidWorks</li>
                     </ul>
-                    Possui bastante interesse nas áreas de Inteligência Artificial, Aprendizado de Máquina e Cibersegurança, 
-                    tendo como foco principal as aplicações voltadas para o mercado automotivo e computação embarcada.
-                    <br />
-                    Também possuí um grande interesse pelas áreas de Ciência de Dados e Pesquisa Operacional, que fez com que
-                    isso se refletisse em suas realizações, incluindo o desenvolvimento de um algoritmo inicial de Machine Learning,
-                    a implementação do algoritmo Simplex em Python. Além de outros trabalhos... 
-                    <b>Para saber mais, acesse a página a seguir</b>
-                    <br />
+                    <p>{t('home.interesses')}</p>
+                    <p>{t('home.interesses2')}</p>
                 </div>
+
                 <div className='professional-image-box'>
                     <img src={ProfessionalFoto} alt='Henrique Rotsen' className='professional-image' />
                 </div>
             </section>
             <div className='btn-contato'>
-                <Button path='/trabalhos' buttonSize={'btn--medium'}>Veja mais trabalhos</Button>
+                <Button path='/trabalhos' buttonSize={'btn--medium'}>
+                    {t('home.btnTrabalhos')}
+                </Button>
             </div>
         </>
-    )
-}
+    );
+};

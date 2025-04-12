@@ -1,11 +1,12 @@
 import '../App.css';
 import '../styles/Contato.css';
-import React from 'react';
-import { useState } from 'react';
-import EmailButton from '../components/EmailButton.js'
-import emailjs from '@emailjs/browser'
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import EmailButton from '../components/EmailButton.js';
+import emailjs from '@emailjs/browser';
 
 export const Contato = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,13 +30,13 @@ export const Contato = () => {
     const validationErrors = {};
 
     if (!formData.name) {
-      validationErrors.name = 'Por favor, preencha o seu nome.';
+      validationErrors.name = t('contato.erroNome');
     }
     if (!formData.email) {
-      validationErrors.email = 'Por favor, preencha o seu email.';
+      validationErrors.email = t('contato.erroEmail');
     }
     if (!formData.message) {
-      validationErrors.message = 'Por favor, preencha a sua mensagem.';
+      validationErrors.message = t('contato.erroMensagem');
     }
 
     if (Object.keys(validationErrors).length > 0) {
@@ -49,7 +50,7 @@ export const Contato = () => {
       from_name: formData.name,
       message: formData.message,
       email: formData.email
-    }
+    };
 
     emailjs.send(
       'service_k7i11p3',
@@ -59,7 +60,7 @@ export const Contato = () => {
     )
       .then((response) => {
         console.log('EMAIL ENVIADO', response.status, response.text);
-        setSubmissionStatus('Email enviado com sucesso!');
+        setSubmissionStatus(t('contato.emailSucesso'));
         setFormData({
           name: '',
           email: '',
@@ -67,21 +68,21 @@ export const Contato = () => {
         });
       }, (error) => {
         console.log('ERRO: ', error);
-        setSubmissionStatus(`Falha ao enviar o email. Erro: ${error.text}`);
+        setSubmissionStatus(`${t('contato.emailErro')} ${error.text}`);
       });
   };
 
   return (
     <div className="contato-box">
       <div className='contato'>
-        <h1>Contato</h1>
+        <h1>{t('contato.titulo')}</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <input
               type="text"
               id="name"
               name="name"
-              placeholder='Digite seu nome'
+              placeholder={t('contato.placeholderNome')}
               value={formData.name}
               onChange={handleChange}
               required
@@ -93,26 +94,28 @@ export const Contato = () => {
               type="email"
               id="email"
               name="email"
-              placeholder='Digite seu email'
+              placeholder={t('contato.placeholderEmail')}
               value={formData.email}
               onChange={handleChange}
               required
             />
-            {errors.name && <p className="error-message">{errors.name}</p>}
+            {errors.email && <p className="error-message">{errors.email}</p>}
           </div>
           <div className="form-group-message">
             <textarea
               id="message"
               name="message"
-              placeholder='Digite sua mensagem'
+              placeholder={t('contato.placeholderMensagem')}
               value={formData.message}
               onChange={handleChange}
               required
             ></textarea>
-            {errors.name && <p className="error-message">{errors.name}</p>}
+            {errors.message && <p className="error-message">{errors.message}</p>}
           </div>
           <div className="form-group-button">
-            <EmailButton type="submit" className='btn-send' buttonStyle={'btn--outline'}>Enviar</EmailButton>
+            <EmailButton type="submit" className='btn-send' buttonStyle={'btn--outline'}>
+              {t('contato.botao')}
+            </EmailButton>
           </div>
           {submissionStatus && <p>{submissionStatus}</p>}
         </form>

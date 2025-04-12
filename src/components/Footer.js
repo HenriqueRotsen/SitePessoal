@@ -1,11 +1,13 @@
 import React from 'react';
 import { getYear } from 'date-fns';
 import '../styles/Footer.css'
+import { useTranslation } from 'react-i18next';
 
 
 function Footer() {
   const anoAtual = getYear(new Date());
-
+  const { t } = useTranslation();
+  
   return (
     <>
       <div className='footer-container'>
@@ -21,7 +23,7 @@ function Footer() {
           </a>
         </div>
         <div className='copyright'>
-          Desenvolvido por Henrique Rotsen - {anoAtual} Todos os direitos reservados ©
+        {t('footer.texto1')} - {anoAtual} {t('footer.texto2')} ©
         </div>
       </div>
     </>

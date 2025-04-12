@@ -1,0 +1,70 @@
+{
+  "home": {
+    "sobre": "Sobre",
+    "descricao": "Graduando em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG).",
+    "descricao2": "Principais conhecimentos",
+    "linguagens": "Linguagens",
+    "bibliotecas": "Bibliotecas",
+    "outrasTecnologias": "Outras Tecnologias",
+    "interesses": "Possui bastante interesse nas áreas de Inteligência Artificial, Aprendizado de Máquina e Cibersegurança, com foco no mercado automotivo e computação embarcada.",
+    "interesses2": "Also has a strong interest in the field of Data Science, which has been reflected in his work, such as a project focused on pattern discovery in a dataset of apartments in the USA.",
+    "vejaTrabalhos": "Para saber mais, acesse a página a seguir",
+    "btnTrabalhos": "Veja os trabalhos"
+  },
+  "header": {
+    "trabalhos": "Trabalhos",
+    "curriculo": "Currículo",
+    "contato": "Contato"
+  },
+  "footer": {
+    "texto1": "Desenvolvido por Henrique Rotsen",
+    "texto2": "Todos os direitos reservados"
+  },
+  "trabalhos": {
+    "titulo": "Principais Trabalhos",
+    "ciberseguranca": "Cibersegurança",
+    "ciberseguranca_desc": "Pesquisador na área de DevSecOps, voltado para análise estática (SAST) e dinâmica (DAST) de vulnerabilidades nos sistemas do Ministério Público de Minas Gerais (MPMG) e do Gabinete de Segurança Integrado (GSI).",
+    "mineracao": "Mineração de Dados",
+    "mineracao_desc": "Foi feito um trabalho voltado para descoberta de padrões em dados de apartamento para aluguel nos EUA. Esse trabalho utilizou várias técnicas de tratamento e análise de dados, que foram discutidas em um relatório disponível abaixo.",
+    "analise": "ANÁLISE EXPLORATÓRIA DE DADOS",
+    "agrupamento": "AGRUPAMENTO",
+    "regressao": "REGRESSÃO",
+    "itemsets": "MINERAÇÃO DE ITEMSETS",
+    "analise_desc": "Permitiu mapear uma média de preços de apartamentos nos Estados Unidos e entender regiões onde os apartamentos de maior preço se concentram.",
+    "agrupamento_desc": "Várias técnicas foram utilizadas (K-Means, DBSCAN...) para buscar um agrupamento nos dados considerando os atributos numéricos disponíveis no dataset.",
+    "regressao_desc": "Possibilitou fazer previsões a partir dos dados e chegar em um resultado satisfatório. Algumas técnicas conhecidas foram utilizadas, e também uma análise de erro e qualidade das métricas obtidas.",
+    "itemsets_desc": "Identificamos padrões significativos entre as comodidades oferecidas nos apartamentos, revelando associações frequentes e relevantes entre conjuntos de itens.",
+    "veja_trabalho": "Veja o Trabalho",
+    "simplex": "Otimização - Simplex",
+    "simplex_desc": "Desenvolvido por George Dantzig em 1947, o algoritmo Simplex é um método poderoso e eficiente para resolver problemas de programação linear. O desenvolvimento desse trabalho ocorreu durante a disciplina de Pesquisa Operacional (DCC035), ministrada pelo Professor Cristiano Arbex Valle (PhD em Matemática Aplicada). O trabalho foi feito em Python e o algoritmo usa a PL estendida, para que já tenhamos o certificado de otimalidade/inviabilidade. Dessa maneira temos um algoritmo capaz de solucionar várias PL's, com uma velocidade muito boa.",
+    "gps": "Análise de Dados - GPS Fórmula UFMG",
+    "gps_desc": "Foi feito o desenvolvimento de um sistema de GPS para o carro de corrida da UFMG. Esse sistema contou com as seguintes tecnologias: Arduino, C++, GPS U-blox NEO-6M®️, Google Colab, Python, Pandas, Folium, Plotly e TinyGPS.",
+    "gps_desc2": "O desenvolvimento foi end-to-end, desde a montagem das peças no Arduino até o tratamento e análise dos dados obtidos. Nesse link é possível ver as análises que foram feitas e inclusive testar com outros dados de GPS que tenham o mesmo formato do da U-blox.",
+    "desenv_software": "Desenvolvimento de Software",
+    "desenv_software_desc": "Já foram feitos alguns trabalhos nessa área. Atua no desenvolvimento de um...",
+    "foodfit_desc": "Sistema de geração de dietas usando Inteligência Artificial por meio da API do ChatGPT, feito em JavaScript usando React.",
+    "comanda_desc": "Sistema de comandas individuais para bares e clientes, que visa facilitar as divisões de conta, feito em JavaScript, TypeScript e Vue.",
+    "santiago_desc": "Software interno para gestão e acompanhamento de contratos para a Santiago Cotton LTDA, sistema esse feito em C# usando framework .NET com Windows Forms.",
+    "ia": "Inteligência Artificial",
+    "ia_desc": "Atua como desenvolvedor na Radio Memory, tendo como foco o desenvolvimento de redes neurais, e suporte as inovações de IA, voltadas para soluções de radiologia"
+  },
+  "curriculo": {
+    "titulo": "Modelos de Currículo",
+    "cv": "Curriculum Vitae",
+    "baixar": "Download",
+    "idiomaPt": "Português (PT/BR)",
+    "idiomaEn": "Inglês (EN/US)"
+  },
+  "contato": {
+    "titulo": "Contato",
+    "placeholderNome": "Digite seu nome",
+    "placeholderEmail": "Digite seu email",
+    "placeholderMensagem": "Digite sua mensagem",
+    "botao": "Enviar",
+    "erroNome": "Por favor, preencha o seu nome.",
+    "erroEmail": "Por favor, preencha o seu email.",
+    "erroMensagem": "Por favor, preencha a sua mensagem.",
+    "emailSucesso": "Email enviado com sucesso!",
+    "emailErro": "Falha ao enviar o email. Erro:"
+  }
+}
