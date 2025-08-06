@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/SitePessoal/static/css/main.75a8b7e6.css",
-    "main.js": "/SitePessoal/static/js/main.d980a041.js",
+    "main.css": "/SitePessoal/static/css/main.c3dbe35b.css",
+    "main.js": "/SitePessoal/static/js/main.d10b561c.js",
     "static/js/38.9a152a1a.chunk.js": "/SitePessoal/static/js/38.9a152a1a.chunk.js",
     "static/media/background-home-page.png": "/SitePessoal/static/media/background-home-page.943ab84ed4678e78e939.png",
     "static/media/profissional2.jpg": "/SitePessoal/static/media/profissional2.451bd83b13013457281d.jpg",
-    "static/media/Mineracao_Dados_Apartamentos_EUA.pdf": "/SitePessoal/static/media/Mineracao_Dados_Apartamentos_EUA.2c60eb94126133df7553.pdf",
     "static/media/Henrique_Rotsen_curriculo_portugues.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_portugues.fda6ab93f7abda8f1f31.pdf",
     "static/media/Henrique_Rotsen_resume_english.pdf": "/SitePessoal/static/media/Henrique_Rotsen_resume_english.66b177ea95c128fb15d1.pdf",
+    "static/media/MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025.pdf": "/SitePessoal/static/media/MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025.185034868b2bb5443428.pdf",
+    "static/media/Mineracao_Dados_Apartamentos_EUA.pdf": "/SitePessoal/static/media/Mineracao_Dados_Apartamentos_EUA.1fbca35c9084f0ac0029.pdf",
     "static/media/logo-no-background.png": "/SitePessoal/static/media/logo-no-background.6435704aba73829a6725.png",
     "static/media/Henrique_Rotsen_curriculo_linkedin.pdf": "/SitePessoal/static/media/Henrique_Rotsen_curriculo_linkedin.1d68b1e45f8d4bf439ec.pdf",
     "static/media/logo-no-background-canto.png": "/SitePessoal/static/media/logo-no-background-canto.b60f95a16c3fcd5f068c.png",
     "index.html": "/SitePessoal/index.html",
-    "main.75a8b7e6.css.map": "/SitePessoal/static/css/main.75a8b7e6.css.map",
-    "main.d980a041.js.map": "/SitePessoal/static/js/main.d980a041.js.map",
+    "main.c3dbe35b.css.map": "/SitePessoal/static/css/main.c3dbe35b.css.map",
+    "main.d10b561c.js.map": "/SitePessoal/static/js/main.d10b561c.js.map",
     "38.9a152a1a.chunk.js.map": "/SitePessoal/static/js/38.9a152a1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75a8b7e6.css",
-    "static/js/main.d980a041.js"
+    "static/css/main.c3dbe35b.css",
+    "static/js/main.d10b561c.js"
   ]
 }
