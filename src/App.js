@@ -5,10 +5,12 @@ import { Curriculo } from './pages/Curriculo.js'
 import { Contato } from './pages/Contato.js'
 import { Trabalhos } from './pages/Trabalhos.js'
 import Footer from './components/Footer.js'
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter basename="SitePessoal">
+    <BrowserRouter basename="Site">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" exact Component={Home}/>

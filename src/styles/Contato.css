@@ -16,8 +16,8 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    height: 50vh;
-    width: 50vw;
+    height: 60%;
+    width: 60%;
     background-color: rgba(133, 133, 133, 0.5);
     border: 1px solid transparent;
     border-radius: 5px;

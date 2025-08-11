@@ -1,9 +1,9 @@
 import DownloadButton from '../components/DownloadButton.js';
 import '../App.css';
 import '../styles/Trabalhos.css';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import MDA from '../components/files/Mineracao_Dados_Apartamentos_EUA.pdf';
+import SEMISH from '../components/files/MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025.pdf';
 
 export const Trabalhos = () => {
   const { t } = useTranslation();
@@ -27,6 +27,9 @@ export const Trabalhos = () => {
           <div className='info-container-2'>
             <h2 className='work-title'>{t('trabalhos.ciberseguranca')}</h2>
             <p>{t('trabalhos.ciberseguranca_desc')}</p>
+            <DownloadButton downloadUrl={SEMISH} downloadFileName="MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025">
+              {t('trabalhos.veja_trabalho')}
+            </DownloadButton>
           </div>
         </div>
 
