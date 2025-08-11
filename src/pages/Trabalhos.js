@@ -1,7 +1,6 @@
 import DownloadButton from '../components/DownloadButton.js';
 import '../App.css';
 import '../styles/Trabalhos.css';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import MDA from '../components/files/Mineracao_Dados_Apartamentos_EUA.pdf';
 import SEMISH from '../components/files/MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025.pdf';
