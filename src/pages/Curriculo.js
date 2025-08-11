@@ -57,7 +57,7 @@ export const Curriculo = () => {
             >
               {t('curriculo.baixar')}
             </DownloadButton>
-            <p>{t('curriculo.idiomaPt')}</p>
+            <p>{t('curriculo.idiomaEn')}</p>
           </li>
         </ul>
       </main>
