@@ -29,11 +29,11 @@ export const Home = () => {
                     <p>{t('home.descricao')}<br /><b>{t('home.descricao2')}</b></p>
                     <b>{t('home.linguagens')}</b>
                     <ul className='has-bar'>
+                        <li className='item'>Python</li>
                         <li className='item'>C</li>
                         <li className='item'>C++</li>
                         <li className='item'>C#</li>
                         <li className='item'>JavaScript</li>
-                        <li className='item'>Python</li>
                         <li className='item'>Java</li>
                         <li className='item'>Matlab</li>
                         <li className='item'>Vue</li>
@@ -44,29 +44,33 @@ export const Home = () => {
                     <b>{t('home.bibliotecas')}</b>
                     <ul className='has-bar'>
                         <li className='item'>PyTorch</li>
-                        <li className='item'>.NET</li>
                         <li className='item'>Pandas</li>
+                        <li className='item'>Scikit-learn</li>
+                        <li className='item'>Statsmodels</li>
                         <li className='item'>Scypi</li>
                         <li className='item'>Numpy</li>
                         <li className='item'>Seaborn</li>
-                        <li className='item'>Scikit-learn</li>
-                        <li className='item'>Statsmodels</li>
+                        <li className='item'>.NET</li>
                     </ul>
 
                     <b>{t('home.outrasTecnologias')}</b>
                     <ul className='tecnologies'>
+                        <li className='item'>AWS</li>
                         <li className='item'>SonarQube</li>
                         <li className='item'>Jenkins</li>
                         <li className='item'>OwaspZap</li>
+                        <li className='item'>Wazuh</li>
+                        <li className='item'>Shuffle</li>
+                        <li className='item'>TheHive</li>
+                        <li className='item'>MISP</li>
+                        <li className='item'>Cortex</li>
                         <li className='item'>Azure DevOPS</li>
-                        <li className='item'>VS Code</li>
                         <li className='item'>Visual Studio</li>
                         <li className='item'>Excel</li>
                         <li className='item'>Scrum</li>
                         <li className='item'>Kanban</li>
                         <li className='item'>Design Thinking</li>
                         <li className='item'>Knime</li>
-                        <li className='item'>SolidWorks</li>
                     </ul>
                     <p>{t('home.interesses')}</p>
                     <p>{t('home.interesses2')}</p>

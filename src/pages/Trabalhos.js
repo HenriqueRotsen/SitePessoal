@@ -13,23 +13,21 @@ export const Trabalhos = () => {
       <section className='works'>
         <h1 className='main-title'>{t('trabalhos.titulo')}</h1>
         <hr className='divider' />
-
         <div className='work'>
           <div className='info-container-1'>
-            <h2 className='work-title'>{t('trabalhos.ia')}</h2>
-            <p>{t('trabalhos.ia_desc')}</p>
-          </div>
-        </div>
-
-        <hr className='divider' />
-
-        <div className='work'>
-          <div className='info-container-2'>
             <h2 className='work-title'>{t('trabalhos.ciberseguranca')}</h2>
             <p>{t('trabalhos.ciberseguranca_desc')}</p>
             <DownloadButton downloadUrl={SEMISH} downloadFileName="MPMG_PCA_Artigo__Análise_de_Vulnerabilidades___SEMISH_2025">
               {t('trabalhos.veja_trabalho')}
             </DownloadButton>
+          </div>
+        </div>
+        <hr className='divider' />
+
+        <div className='work'>
+          <div className='info-container-2'>
+            <h2 className='work-title'>{t('trabalhos.ia')}</h2>
+            <p>{t('trabalhos.ia_desc')}</p>
           </div>
         </div>
 
@@ -40,9 +38,8 @@ export const Trabalhos = () => {
             <p>{t('trabalhos.mineracao_desc')}</p>
             <ul className='vertical'>
               <li><b>{t('trabalhos.analise')}</b><br />{t('trabalhos.analise_desc')}</li>
-              <li><b>{t('trabalhos.agrupamento')}</b><br />{t('trabalhos.agrupamento_desc')}</li>
-              <li><b>{t('trabalhos.regressao')}</b><br />{t('trabalhos.regressao_desc')}</li>
               <li><b>{t('trabalhos.itemsets')}</b><br />{t('trabalhos.itemsets_desc')}</li>
+              <li><b>{t('trabalhos.subgrupos')}</b><br />{t('trabalhos.subgrupos_desc')}</li>
             </ul>
             <DownloadButton downloadUrl={MDA} downloadFileName="Mineracao_Dados_Apartamentos_EUA">
               {t('trabalhos.veja_trabalho')}
